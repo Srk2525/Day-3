@@ -1,3 +1,4 @@
+//Take Positive integer input and tell if it is a three digit or Not.
 package conditions;
 import java.util.Scanner;
 public class ThreeDigitOrNot {
@@ -5,12 +6,7 @@ public class ThreeDigitOrNot {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the number:");
         int num = sc.nextInt();
-      /*  System.out.println("enter First Number:");
-        int a = sc.nextInt();
-        System.out.println("Enter Second Number:");
-        int b = sc.nextInt();
-        System.out.println("Enter Third number:");
-        int c = sc.nextInt();*/
+     
         if (num > 99 && num <1000) {
             System.out.println("Number is Three digit");
         }else
