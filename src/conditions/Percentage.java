@@ -1,3 +1,4 @@
+//Take input percentage of a student print the three digit number or not.
 package conditions;
 import java.util.Scanner;
 public class Percentage {
